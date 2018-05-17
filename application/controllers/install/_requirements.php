@@ -37,7 +37,7 @@ if (!extension_loaded('mysqli')) {
 }
 
 if (!extension_loaded('mcrypt')) {
-	$error = true;
+	$error = false;
 	$requirement4 = "<span class='label label-danger'>Not enabled</span>";
 } else {
 	$requirement4 = "<span class='label label-success'>Enabled</span>";
